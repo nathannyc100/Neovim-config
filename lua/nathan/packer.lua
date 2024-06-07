@@ -38,4 +38,6 @@ return require('packer').startup(function(use)
 
 	}
 
+    use('linux-cultist/venv-selector.nvim')
+
 end)
